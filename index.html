@@ -1,0 +1,383 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Aurelia — Resort &amp; Spa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo reveal-load" style="--delay: 0.1s;">
+                AURELIA<span>RESORT &amp; SPA</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#inicio" class="reveal-load" style="--delay: 0.2s;">Inicio</a>
+                <a href="#nosotros" class="reveal-load" style="--delay: 0.3s;">Nosotros</a>
+                <a href="#habitaciones" class="reveal-load" style="--delay: 0.4s;">Habitaciones</a>
+                <a href="#experiencias" class="reveal-load" style="--delay: 0.5s;">Experiencias</a>
+                <a href="#galeria" class="reveal-load" style="--delay: 0.6s;">Galería</a>
+                <a href="#contacto" class="nav-cta reveal-load" style="--delay: 0.7s;">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-tag reveal-load" style="--delay: 0.3s;">Refugio de Lujo &amp; Serenidad</span>
+            <h1 class="hero-title reveal-load" style="--delay: 0.5s;">Donde el Horizonte se Encuentra con el Descanso</h1>
+            <p class="hero-subtitle reveal-load" style="--delay: 0.7s;">
+                Una experiencia de hospitalidad contemporánea diseñada para despertar tus sentidos frente a la calma del océano.
+            </p>
+            <div class="hero-actions">
+                <a href="#habitaciones" class="btn btn-primary reveal-load" style="--delay: 0.9s;">Descubrir Suites</a>
+                <a href="#nosotros" class="btn btn-outline reveal-load" style="--delay: 1.05s;">Nuestra Esencia</a>
+            </div>
+        </div>
+        <div class="scroll-indicator reveal-load" style="--delay: 1.2s;">
+            <span>Desliza</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <section class="section about" id="nosotros">
+        <div class="container about-grid">
+            <div class="about-media">
+                <div class="about-img-main reveal reveal-left" style="--delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80" alt="Arquitectura del hotel y piscina">
+                </div>
+                <div class="about-badge reveal reveal-scale" style="--delay: 0.35s;">
+                    <span class="badge-number">5★</span>
+                    <span class="badge-text">Hospitalidad de Excelencia</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <span class="section-tag reveal reveal-up" style="--delay: 0.1s;">Nuestra Esencia</span>
+                <h2 class="section-title reveal reveal-up" style="--delay: 0.2s;">Arquitectura que respira armonía y elegancia atemporal</h2>
+                <p class="section-text reveal reveal-up" style="--delay: 0.3s;">
+                    Cada rincón de Hotel Aurelia ha sido concebido para ofrecer privacidad, confort absoluto y una conexión auténtica con el entorno natural. Espacios luminosos, materiales nobles y un servicio cálido y personalizado definen cada estancia.
+                </p>
+                <p class="section-text reveal reveal-up" style="--delay: 0.4s;">
+                    Ya sea una escapada romántica, un viaje de descanso o una celebración especial, creamos momentos memorables pensados a tu medida.
+                </p>
+
+                <div class="about-stats">
+                    <div class="stat-item reveal reveal-up" style="--delay: 0.5s;">
+                        <h3>48</h3>
+                        <p>Suites Exclusivas</p>
+                    </div>
+                    <div class="stat-item reveal reveal-up" style="--delay: 0.65s;">
+                        <h3>3</h3>
+                        <p>Restaurantes de Autor</p>
+                    </div>
+                    <div class="stat-item reveal reveal-up" style="--delay: 0.8s;">
+                        <h3>24/7</h3>
+                        <p>Atención Personalizada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section rooms" id="habitaciones">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal reveal-up" style="--delay: 0.1s;">Alojamiento</span>
+                <h2 class="section-title reveal reveal-up" style="--delay: 0.2s;">Nuestras Habitaciones &amp; Suites</h2>
+                <p class="section-desc reveal reveal-up" style="--delay: 0.3s;">
+                    Espacios diseñados con líneas orgánicas, terrazas privadas y vistas panorámicas que invitan a la desconexión total.
+                </p>
+            </div>
+
+            <div class="rooms-grid">
+                <article class="room-card reveal reveal-up" style="--delay: 0.15s;">
+                    <div class="room-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80" alt="Suite Vista al Mar">
+                        <span class="room-tag">Más Solicitada</span>
+                    </div>
+                    <div class="room-body">
+                        <h3 class="reveal reveal-up" style="--delay: 0.25s;">Suite Vista al Mar</h3>
+                        <p class="reveal reveal-up" style="--delay: 0.35s;">
+                            Amplia suite con balcón privado, cama King Size y ventanales de piso a techo con vista directa al horizonte.
+                        </p>
+                        <ul class="room-features reveal reveal-up" style="--delay: 0.45s;">
+                            <li>65 m²</li>
+                            <li>Terraza Privada</li>
+                            <li>Cama King</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="room-card reveal reveal-up" style="--delay: 0.3s;">
+                    <div class="room-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1000&q=80" alt="Villa Jardín Privado">
+                        <span class="room-tag">Privacidad</span>
+                    </div>
+                    <div class="room-body">
+                        <h3 class="reveal reveal-up" style="--delay: 0.4s;">Villa Jardín Privado</h3>
+                        <p class="reveal reveal-up" style="--delay: 0.5s;">
+                            Rodeada de vegetación tropical, cuenta con piscina de inmersión exclusiva, sala de estar y ducha exterior.
+                        </p>
+                        <ul class="room-features reveal reveal-up" style="--delay: 0.6s;">
+                            <li>92 m²</li>
+                            <li>Piscina Privada</li>
+                            <li>Jardín Interior</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="room-card reveal reveal-up" style="--delay: 0.45s;">
+                    <div class="room-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=1000&q=80" alt="Penthouse Aurelia">
+                        <span class="room-tag">Exclusiva</span>
+                    </div>
+                    <div class="room-body">
+                        <h3 class="reveal reveal-up" style="--delay: 0.55s;">Penthouse Aurelia</h3>
+                        <p class="reveal reveal-up" style="--delay: 0.65s;">
+                            Máxima expresión de sofisticación en el nivel superior, con terraza panorámica, jacuzzi y salón comedor privado.
+                        </p>
+                        <ul class="room-features reveal reveal-up" style="--delay: 0.75s;">
+                            <li>140 m²</li>
+                            <li>Jacuzzi Panorámico</li>
+                            <li>Mayordomo</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section experiences" id="experiencias">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag reveal reveal-up" style="--delay: 0.1s;">Servicios &amp; Amenidades</span>
+                <h2 class="section-title reveal reveal-up" style="--delay: 0.2s;">Experiencias Pensadas para Ti</h2>
+                <p class="section-desc reveal reveal-up" style="--delay: 0.3s;">
+                    Cada detalle de tu estancia está cuidadosamente curado para equilibrar bienestar, sabor y descanso.
+                </p>
+            </div>
+
+            <div class="exp-grid">
+                <div class="exp-card reveal reveal-up" style="--delay: 0.15s;">
+                    <div class="exp-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4"/></svg>
+                    </div>
+                    <h3>Spa &amp; Bienestar</h3>
+                    <p>Rituales holísticos, sauna panorámico, hidroterapia y masajes terapéuticos con ingredientes botánicos locales.</p>
+                </div>
+
+                <div class="exp-card reveal reveal-up" style="--delay: 0.3s;">
+                    <div class="exp-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11h18M5 11V7a7 7 0 0 1 14 0v4M6 11v7a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-7"/></svg>
+                    </div>
+                    <h3>Alta Gastronomía</h3>
+                    <p>Cocina contemporánea de mar y tierra elaborada con productos frescos de temporada y cava de vinos selectos.</p>
+                </div>
+
+                <div class="exp-card reveal reveal-up" style="--delay: 0.45s;">
+                    <div class="exp-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 16c2-2 4-2 6 0s4 2 6 0 4-2 6 0M2 20c2-2 4-2 6 0s4 2 6 0 4-2 6 0M12 4a4 4 0 0 0-4 4v4h8V8a4 4 0 0 0-4-4z"/></svg>
+                    </div>
+                    <h3>Piscina Infinita</h3>
+                    <p>Piscina climatizada con borde infinito hacia el horizonte, camastros de diseño y servicio de coctelería de autor.</p>
+                </div>
+
+                <div class="exp-card reveal reveal-up" style="--delay: 0.6s;">
+                    <div class="exp-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3 6 6 1-4.5 4.2 1.2 6.3L12 16.5 6.3 19.5l1.2-6.3L3 9l6-1 3-6z"/></svg>
+                    </div>
+                    <h3>Concierge Privado</h3>
+                    <p>Organización de traslados, recorridos privados, cenas bajo las estrellas y atención dedicada las 24 horas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag reveal reveal-up" style="--delay: 0.1s;">Galería Visual</span>
+                <h2 class="section-title reveal reveal-up" style="--delay: 0.2s;">Instantes de Calma</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-large reveal reveal-scale" style="--delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1200&q=80" alt="Piscina panorámica del resort">
+                    <div class="gallery-caption">Piscina Infinita</div>
+                </div>
+                <div class="gallery-item reveal reveal-scale" style="--delay: 0.22s;">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80" alt="Restaurante gastronómico">
+                    <div class="gallery-caption">Cocina de Autor</div>
+                </div>
+                <div class="gallery-item reveal reveal-scale" style="--delay: 0.34s;">
+                    <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=80" alt="Zona de spa y masajes">
+                    <div class="gallery-caption">Santuario Spa</div>
+                </div>
+                <div class="gallery-item reveal reveal-scale" style="--delay: 0.46s;">
+                    <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=900&q=80" alt="Lobby principal del hotel">
+                    <div class="gallery-caption">Espacios Comunes</div>
+                </div>
+                <div class="gallery-item reveal reveal-scale" style="--delay: 0.58s;">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80" alt="Atardecer en el resort">
+                    <div class="gallery-caption">Atardeceres Únicos</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <span class="section-tag reveal reveal-up" style="--delay: 0.1s;">Contacto Directo</span>
+                    <h2 class="section-title reveal reveal-up" style="--delay: 0.2s;">Estamos Listos para Recibirte</h2>
+                    <p class="section-text reveal reveal-up" style="--delay: 0.3s;">
+                        Comunícate directamente con nuestro equipo de atención al huésped para resolver dudas, conocer disponibilidad o solicitar información personalizada.
+                    </p>
+
+                    <div class="contact-details">
+                        <div class="contact-item reveal reveal-left" style="--delay: 0.4s;">
+                            <strong>Ubicación</strong>
+                            <span>Av. Costera del Sol 420, Zona Hotelera</span>
+                        </div>
+                        <div class="contact-item reveal reveal-left" style="--delay: 0.5s;">
+                            <strong>Teléfono / WhatsApp</strong>
+                            <span>+52 493 456 532</span>
+                        </div>
+                        <div class="contact-item reveal reveal-left" style="--delay: 0.6s;">
+                            <strong>Correo Electrónico</strong>
+                            <span>hola@hotelaurelia-demo.com</span>
+                        </div>
+                        <div class="contact-item reveal reveal-left" style="--delay: 0.7s;">
+                            <strong>Horario de Recepción</strong>
+                            <span>Abierto todos los días, 24 horas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-cta-card reveal reveal-right" style="--delay: 0.35s;">
+                    <h3 class="reveal reveal-up" style="--delay: 0.45s;">Atención Inmediata</h3>
+                    <p class="reveal reveal-up" style="--delay: 0.55s;">
+                        Escríbenos directamente por WhatsApp y un asesor te atenderá al instante con toda la información que necesites.
+                    </p>
+                    <a href="https://wa.me/52493456532?text=Hola,%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20hotel." target="_blank" rel="noopener noreferrer" class="btn btn-primary reveal reveal-up" style="--delay: 0.65s;">
+                        Chatear por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="ocean-footer">
+        <div class="ocean-waves" aria-hidden="true">
+            <svg class="wave wave-back" viewBox="0 0 1440 160" preserveAspectRatio="none">
+                <path d="M0,70 C240,130 480,10 720,70 C960,130 1200,10 1440,70 L1440,160 L0,160 Z"></path>
+                <path d="M1440,70 C1680,130 1920,10 2160,70 C2400,130 2640,10 2880,70 L2880,160 L1440,160 Z"></path>
+            </svg>
+            <svg class="wave wave-mid" viewBox="0 0 1440 160" preserveAspectRatio="none">
+                <path d="M0,90 C280,30 560,145 840,85 C1120,25 1280,120 1440,90 L1440,160 L0,160 Z"></path>
+                <path d="M1440,90 C1720,30 2000,145 2280,85 C2560,25 2720,120 2880,90 L2880,160 L1440,160 Z"></path>
+            </svg>
+            <svg class="wave wave-front" viewBox="0 0 1440 160" preserveAspectRatio="none">
+                <path d="M0,105 C320,155 640,45 960,105 C1180,145 1320,75 1440,105 L1440,160 L0,160 Z"></path>
+                <path d="M1440,105 C1760,155 2080,45 2400,105 C2620,145 2760,75 2880,105 L2880,160 L1440,160 Z"></path>
+            </svg>
+        </div>
+
+        <div class="ocean-body">
+            <div class="ocean-currents" aria-hidden="true"></div>
+            <div class="container footer-content">
+                <div class="footer-brand reveal reveal-up" style="--delay: 0.1s;">
+                    <a href="#inicio" class="logo">AURELIA<span>RESORT &amp; SPA</span></a>
+                    <p>Refugio contemporáneo frente al mar. Diseño, calma y hospitalidad pensada para inspirar.</p>
+                </div>
+
+                <div class="footer-links reveal reveal-up" style="--delay: 0.25s;">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#habitaciones">Habitaciones</a></li>
+                        <li><a href="#experiencias">Experiencias</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact reveal reveal-up" style="--delay: 0.4s;">
+                    <h4>Contacto</h4>
+                    <p>Av. Costera del Sol 420</p>
+                    <p>Tel: +52 493 456 532</p>
+                    <p>hola@hotelaurelia-demo.com</p>
+                </div>
+            </div>
+
+            <div class="container footer-bottom reveal reveal-up" style="--delay: 0.5s;">
+                <p>&copy; 2026 Hotel Aurelia Resort &amp; Spa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/52493456532?text=Hola,%20me%20gustar%C3%ADa%20recibir%20informaci%C3%B3n%20sobre%20el%20hotel."
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+            <path d="M16.004 2.667C8.64 2.667 2.667 8.64 2.667 16c0 2.353.615 4.652 1.784 6.678L2.667 29.333l6.827-1.79A13.28 13.28 0 0 0 16.004 29.333c7.363 0 13.33-5.973 13.33-13.333 0-7.36-5.967-13.333-13.33-13.333zm0 24.417a11.04 11.04 0 0 1-5.635-1.545l-.404-.24-4.052 1.063 1.082-3.95-.263-.42A11.033 11.033 0 0 1 4.92 16c0-6.112 4.972-11.084 11.084-11.084 6.11 0 11.08 4.972 11.08 11.084 0 6.112-4.97 11.084-11.08 11.084zm6.08-8.303c-.333-.167-1.972-.973-2.278-1.084-.305-.111-.528-.167-.75.167-.222.333-.86 1.084-1.055 1.306-.194.222-.389.25-.722.083-.333-.167-1.408-.519-2.681-1.654-.99-.883-1.66-1.974-1.854-2.307-.194-.333-.02-.514.146-.68.15-.149.333-.389.5-.583.167-.194.222-.333.333-.556.111-.222.056-.417-.028-.583-.083-.167-.75-1.806-1.028-2.473-.27-.65-.546-.562-.75-.572l-.639-.011c-.222 0-.583.083-.889.417-.305.333-1.167 1.14-1.167 2.779s1.195 3.223 1.361 3.445c.167.222 2.35 3.588 5.694 5.032.795.343 1.416.548 1.9.701.799.254 1.526.218 2.101.132.641-.096 1.972-.806 2.25-1.584.278-.778.278-1.445.194-1.584-.083-.139-.305-.222-.639-.389z"/>
+        </svg>
+        <span class="whatsapp-tooltip">WhatsApp</span>
+    </a>
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menuToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.14,
+            rootMargin: '0px 0px -40px 0px'
+        });
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
